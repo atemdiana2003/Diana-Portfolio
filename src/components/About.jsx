@@ -47,12 +47,9 @@ const About = () => {
           <motion.div variants={itemVariants} className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-navy-100 to-teal-100 dark:from-navy-800 dark:to-navy-700 flex items-center justify-center shadow-2xl">
               <img 
-                src="src/assets/profile_image0.png" 
+                src="/assets/profile_image0.png" 
                 alt="Atem Diana - Software Engineer" 
                 className="w-full h-full object-cover object-[0%_20%]"
-                onError={(e) => {
-                  e.target.src = "src/assets/profile_image0.png";
-                }}
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-teal-500 rounded-2xl -z-10 opacity-20" />

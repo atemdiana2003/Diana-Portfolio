@@ -50,9 +50,6 @@ const Hero = () => {
                 src="/assets/profile_image0.png" 
                 alt="Atem Diana" 
                 className="w-full h-full object-cover object-[0%_20%]"
-                onError={(e) => {
-                  e.target.src = "src/assets/profile_image0.png";
-                }}
               />
             </div>
           </motion.div>
@@ -97,7 +94,7 @@ const Hero = () => {
               <span>Contact Me</span>
             </a>
             <a
-              href="/Atem-Diana-CV.pdf"
+              href="/Atem Professional CV.pdf"
               download
               className="w-full sm:w-auto bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-300 flex items-center justify-center space-x-2 text-center"
             >
