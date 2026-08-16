@@ -84,7 +84,7 @@ const Navbar = () => {
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
             </button>
             <a
-              href="/Atem-Diana-CV.pdf"
+              href="/Atem-Professional-CV.pdf"
               download
               className="bg-navy-600 hover:bg-navy-700 text-white px-4 py-2 rounded-lg font-medium transition-colors duration-300 flex items-center space-x-2 text-sm md:text-base"
             >
@@ -133,7 +133,7 @@ const Navbar = () => {
                 </a>
               ))}
               <a
-                href="/Atem-Diana-CV.pdf"
+                href="/Atem-Professional-CV.pdf"
                 download
                 className="block mt-4 bg-navy-600 hover:bg-navy-700 text-white px-4 py-3 rounded-lg font-medium transition-colors duration-300 text-center"
               >

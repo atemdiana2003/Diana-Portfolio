@@ -59,7 +59,7 @@ const Resume = () => {
               </div>
 
               <a
-                href="/Atem-Diana-CV.pdf"
+                href="/Atem-Professional-CV.pdf"
                 download
                 className="btn-primary flex items-center space-x-3 text-lg px-8 py-4"
               >

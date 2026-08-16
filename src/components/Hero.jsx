@@ -94,7 +94,7 @@ const Hero = () => {
               <span>Contact Me</span>
             </a>
             <a
-              href="/Atem Professional CV.pdf"
+              href="/Atem-Professional-CV.pdf"
               download
               className="w-full sm:w-auto bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-300 flex items-center justify-center space-x-2 text-center"
             >
